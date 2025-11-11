@@ -43,7 +43,7 @@ body{
 @media (max-width:600px) {
     .project-card__bg {
         width: 30px;
-        height: 150px;
+        height: 180px;
     }
         .active {
             width: 150px;
