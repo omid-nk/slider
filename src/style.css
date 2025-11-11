@@ -30,3 +30,22 @@ body{
     filter: opacity(1);
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.324);
 }
+
+@media (max-width:900px) {
+    .project-card__bg {
+        width: 50px;
+        height: 250px;
+    }
+        .active {
+            width: 250px;
+        }
+}
+@media (max-width:600px) {
+    .project-card__bg {
+        width: 30px;
+        height: 150px;
+    }
+        .active {
+            width: 150px;
+        }
+}
