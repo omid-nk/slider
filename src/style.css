@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background-color: #1d1928;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-card__bg{
+    width: 100px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    filter: opacity(0.2);
+}
+
+.active{
+    width: 450px;
+    filter: opacity(1);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.324);
+}
